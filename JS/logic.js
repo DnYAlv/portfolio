@@ -1,11 +1,4 @@
-const firebaseConfig = {
-    apiKey: "AIzaSyCaywWUkT_GW1H5vVO1h1EkSoWWCUXXtUc",
-    authDomain: "final-bncc.firebaseapp.com",
-    projectId: "final-bncc",
-    storageBucket: "final-bncc.appspot.com",
-    messagingSenderId: "360317209003",
-    appId: "1:360317209003:web:296c5c7ee190436349aaee"
-};
+const firebaseConfig = config.firebase_config;
 
 firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore()
